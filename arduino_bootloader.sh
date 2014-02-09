@@ -7,12 +7,12 @@
 # 2000dB - 2012
 ################################################################
 
-CHIP=atmega328p
+CHIP=atmega168
 PROG=stk500v2
-PORT=/dev/tty.usbserial-FTE272VF
+PORT=/dev/tty.usbserial-FTE270YJ
 
 ARDUINO_DIR=/Applications/Arduino.app/Contents/Resources/Java
-BOOTLOADER=${ARDUINO_DIR}/hardware/arduino/bootloaders/optiboot/optiboot_atmega328.hex
+BOOTLOADER=${ARDUINO_DIR}/hardware/arduino/bootloaders/optiboot/optiboot_atmega168.hex
 AVR_DIR=${ARDUINO_DIR}/hardware/tools/avr
 AVR_CONF=${AVR_DIR}/etc/avrdude.conf
 AVRDUDE=${AVR_DIR}/bin/avrdude

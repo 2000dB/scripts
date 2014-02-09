@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # Tmux pwd update
 if [ -n "$TMUX" ]; then
